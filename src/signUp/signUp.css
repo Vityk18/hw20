@@ -1,0 +1,44 @@
+.signInBody {
+    width: 350px;
+    background-color: #2b303a;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 15px;
+    transition: all ease 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    }
+
+
+.rememberMe { 
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+    gap: 5px;
+    font-size: 14px;
+    }
+.button {
+    width: 290px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #08c0fa;
+    color: #2b303a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: #4285f4;
+    }
+    &:active {
+      transform: translateY(1px);
+    }
+    &.disabled {
+      background-color: grey;
+    }
+}
